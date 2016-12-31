@@ -1,0 +1,8 @@
+file = open("example.txt",'r')
+print(type(file))
+content = file.read()
+print(content)
+print(type(content))
+file.seek(0)
+content = file.readlines()
+print(content)

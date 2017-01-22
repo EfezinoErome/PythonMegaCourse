@@ -32,11 +32,11 @@ def gen_total(lsts):
         l_temp = generator(lst)
         l_total+=l_temp
     return l_total
-    
+
 #test = gen_total(letter_input_1, letter_input_2, letter_input_3)
 for i in range(20):
     lst.append(gen_total(inpt))
 
 for i in lst:
-    print i
+    print(i)
     time.sleep(1)

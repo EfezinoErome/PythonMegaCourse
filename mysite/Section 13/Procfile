@@ -1,0 +1,1 @@
+web: gunicorn script4:app 
